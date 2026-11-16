@@ -5,6 +5,12 @@
 
 using namespace std;
 
+//factorial(0)=> n==0  true retrun 1
+//factorial(1)=> n==0 false retrun 1*factorial(0)[]=> 1
+//factorial(2)=> n==0 false return 2*factorial(1)[]=>2
+//factorial(3)=> n==0 false retrun 3*factorial(2)[]=>6
+//factorial(4)=> n==0 false return 4*factorial(3)[]=>24
+
 int factorial(int n)
 {
     //  factorial(3) -> 3 * factorial(2) -> 3 * 2 * factorial(1) -> 3 * 2 * 1 * factorial(0) -> 3 * 2 * 1 * 1
@@ -15,7 +21,10 @@ int factorial(int n)
 
     return n * factorial(n - 1);
 }
-
+//putere(2, 0)=> exp==0 true  return 1
+//putere(2, 1)=> exp==0 false return 2 *  putere(2,0)[]=>2
+//putere(2, 2)=> exp==0 false return 2 *  putere(2,1)[]=>4
+//putere(2, 3)=> exp==0 false return 2 *  putere(2,2)[]=>8
 int putere(int baza, int exp)
 {
     //  putere(2, 3) -> 2 * putere(2, 2) -> 2 * 2 * putere(2, 1) -> 2 * 2 * 2 * putere(2, 0) -> 2 * 2 * 2 * 1
@@ -26,10 +35,15 @@ int putere(int baza, int exp)
 
     return baza * putere(baza, exp - 1);
 }
-
+//
+// sumaCIfre(0)    => n==0 true  return 0
+// sumaCifre(8)    => n==0 false return 8 + sumaCifre(0)[]   => 9
+// sumaCifre(89)   => n==0 false return 9 + sumaCifre(8)[]   => 18
+// sumaCifre(897)  => n==0 false return 7 + sumaCifre(89)[]  => 25
+// sumaCifre(8975) => n==0 false return 5 + sumaCifre(897)[] => 30
 int sumaCifre(int n)
 {
-    //  sumaCifre(472) -> 2 + sumaCifre(47) -> 2 + 7 + sumaCifre(4) -> 2 + 7 + 4 + sumaCifre(0) -> 13
+
     if (n == 0)
     {
         return 0;
@@ -47,10 +61,15 @@ int nrCifre(int n)
 
     return 1 + nrCifre(n / 10);
 }
-
+//5674
+// oglindit  (0,4765)=>n==0   return 4765
+// oglindit (5,467)=>  n==0  false return oglindit(0,   4765)[]=>5765
+//  oglindit(56,47)=>  n==0  false return oglindit(5,  476)[]=>4765
+//  oglindit(567,4)=>  n==0  false return oglindit(56, 47)[]=>4765
+//  oglindit(5674,0)=> n==0  false return oglindit(567,4)[]=>4765
 int oglindit(int n, int r)
 {
-    //  oglindit(472, 0) -> oglindit(47, 2) -> oglindit(4, 27) -> oglindit(0, 274) -> 274
+
     if (n == 0)
     {
         return r;

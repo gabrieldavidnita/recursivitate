@@ -32,6 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="algoritmi.h" />
+		<Unit filename="cifre-recursive.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="factorial-putere.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
