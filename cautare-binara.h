@@ -34,4 +34,6 @@ void solutieApare()
 
 //2?
 
+//3?
+//rad rec?
 #endif // CAUTARE-BINARA_H_INCLUDED

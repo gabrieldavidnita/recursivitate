@@ -1,13 +1,41 @@
 # depslib dependency file v1.0
-1794335618 source:c:\mycode\cpp\siruri-de-caractere\recursivitate\main.cpp
+1795456557 source:c:\mycode\cpp\siruri-de-caractere\recursivitate\main.cpp
 	"algoritmi.h"
 	"factorial-putere.h"
 	"cifre-recursive.h"
+	"divide-et-impera.h"
+	"cmmdc.h"
+	"fibonacci.h"
+	"afisare-apel.h"
+	"suma-maxim-vector.h"
+	"cautare-binara.h"
+	"palindrom-vector.h"
+	"divide-et-impera.h"
+	"hanoi.h"
+	"void-referinta.h"
 
 1794344577 c:\mycode\cpp\siruri-de-caractere\recursivitate\algoritmi.h
 	<iostream>
 
-1794845282 c:\mycode\cpp\siruri-de-caractere\recursivitate\factorial-putere.h
+1795453394 c:\mycode\cpp\siruri-de-caractere\recursivitate\factorial-putere.h
 
-1794845282 c:\mycode\cpp\siruri-de-caractere\recursivitate\cifre-recursive.h
+1795452439 c:\mycode\cpp\siruri-de-caractere\recursivitate\cifre-recursive.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\divide-et-impera.h
+
+1795453394 c:\mycode\cpp\siruri-de-caractere\recursivitate\cmmdc.h
+
+1795453394 c:\mycode\cpp\siruri-de-caractere\recursivitate\fibonacci.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\afisare-apel.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\suma-maxim-vector.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\cautare-binara.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\palindrom-vector.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\hanoi.h
+
+1795456557 c:\mycode\cpp\siruri-de-caractere\recursivitate\void-referinta.h
 

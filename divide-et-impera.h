@@ -96,4 +96,30 @@ void solutieAparitiiMaxim()
     cout<<"5->"<<aparitiiMaxim(v4,0,0)<<endl;
 }
 
+bool esteOrdonat(int v[],int st,int dr)
+{
+    if(st>=dr)
+        return true;
+    int mij=(st+dr)/2;
+    if(!esteOrdonat(v,st,mij))
+    return false;
+    if(!esteOrdonat(v,mij+1,dr))
+        return false;
+    return v[mij]<=v[mij+1];
+}
+
+void solutieEsteOrdonat()
+{
+    int v1[]={1,3,7,9};
+    int v2[]={1,2,4,3};
+    int v3[]={1,7,3};
+    int v4[]={2,2,2};
+    int v5[]={5};
+    cout<<esteOrdonat(v1,0,3)<<endl;
+    cout<<esteOrdonat(v2,0,3)<<endl;
+    cout<<esteOrdonat(v3,0,2)<<endl;
+    cout<<esteOrdonat(v4,0,2)<<endl;
+    cout<<esteOrdonat(v5,0,0)<<endl;
+}
+//sort descr?
 #endif // DIVIDE-ET-IMPERA_H_INCLUDED

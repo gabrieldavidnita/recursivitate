@@ -20,6 +20,8 @@ void g(int n)
     }
 }
 
+
+
 void solutieF()
 {
     cout<<"f(3)->";
@@ -57,5 +59,6 @@ void solutieG()
     g(1);
     cout<<endl;
 }
-
+//munte?
+//dus - intors?
 #endif // AFISARE-APEL_H_INCLUDED

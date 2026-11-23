@@ -51,4 +51,43 @@ void solutieCifrePare()
     cout<<2000<<"->"<<cifrePare(2000)<<endl;
     cout<<7<<"->"<<cifrePare(7)<<endl;
 }
+
+int sumaCifrelor(int n)
+{
+    if(n==0)
+            return 0;
+    return n%10+sumaCifrelor(n/10);
+}
+
+int cifraDeControl(int n)
+{
+    if(n<10)
+        return n;
+    return cifraDeControl(sumaCifrelor(n));
+}
+
+void solutieCifraDeControl()
+{
+    cout<<cifraDeControl(9875)<<endl;
+    cout<<cifraDeControl(99)<<endl;
+    cout<<cifraDeControl(10)<<endl;
+    cout<<cifraDeControl(6)<<endl;
+    cout<<cifraDeControl(0)<<endl;
+}
+
+int cifraDinPozitia(int n,int k)
+{
+    if(n==0)return -1;
+    if(k==1)return n%10;
+    return cifraDinPozitia(n/10,k-1);
+}
+
+void solutieCifraDinPozitia()
+{
+    cout<<cifraDinPozitia(48723,1)<<endl;
+    cout<<cifraDinPozitia(48723,3)<<endl;
+    cout<<cifraDinPozitia(48723,5)<<endl;
+    cout<<cifraDinPozitia(4738,5)<<endl;
+    cout<<cifraDinPozitia(7,1)<<endl;
+}
 #endif // CIFRE-RECURSIVE_H_INCLUDED

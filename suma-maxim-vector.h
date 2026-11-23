@@ -48,6 +48,28 @@ void solutieProdusElemente()
     cout<<"7 0 3->"<<produsElemente(v4,3)<<endl;
 }
 
+int pozitiaMaximului(int v[],int n)
+{
+    if(n==1)
+        return 0;
+    int poz=pozitiaMaximului(v,n-1);
+    if(v[n-1]>v[poz])
+    return n-1;
+    return poz;
+}
 
+void solutiePozitiaMaximului()
+{
+    int v1[]={3,9,2,9,1};
+    int v2[]={5};
+    int v3[]={1,2,3};
+    int v4[]={4,4,4};
+    cout<<pozitiaMaximului(v1,5)<<endl;
+    cout<<pozitiaMaximului(v2,1)<<endl;
+    cout<<pozitiaMaximului(v3,3)<<endl;
+    cout<<pozitiaMaximului(v4,3)<<endl;
+}
+
+// crescator?
 
 #endif // SUMA-MAXIM-VECTOR_H_INCLUDED

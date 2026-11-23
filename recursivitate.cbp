@@ -32,14 +32,44 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="afisare-apel.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="algoritmi.h" />
+		<Unit filename="cautare-binara.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="cifre-recursive.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="cmmdc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="divide-et-impera.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="factorial-putere.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="fibonacci.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="hanoi.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="oglindit.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="palindrom-vector.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="suma-maxim-vector.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="void-referinta.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

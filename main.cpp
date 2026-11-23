@@ -14,5 +14,5 @@
 #include "void-referinta.h"
 int main()
 {
-solutieAparitiiMaxim();
+
 }
